@@ -1,6 +1,10 @@
 export default interface IBlock {
 	Id: string;
-	Duration: number;
 	Title: string;
 	Description: string;
+	Duration: number;
+	Start: number;
+	Finish: number;
+	Priority: number;
+	Position: string;
 }

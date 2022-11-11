@@ -1,0 +1,84 @@
+{
+  "value": [
+    {
+      "Id": "1",
+      "Title": "Test",
+      "Description": "<span>Test1</span>",
+      "Duration": 100,
+      "Start": 1640995200,
+      "Finish": 1720742400,
+      "Priority": 0,
+      "Position": "TopLeft"
+    },
+    {
+      "Id": "2",
+      "Title": "Warning",
+      "Description": "<span style=\"color: red;\">Warning!!!</span>",
+      "Duration": 20,
+      "Start": 1640995200,
+      "Finish": 1720742400,
+      "Priority": 0,
+      "Position": "TopLeft"
+    },
+    {
+      "Id": "3",
+      "Title": "Warning 2",
+      "Description": "<span style=\"color: red;\">Warning!!!</span>",
+      "Duration": 20,
+      "Start": 1640995200,
+      "Finish": 1720742400,
+      "Priority": 0,
+      "Position": "TopRight"
+    },
+    {
+      "Id": "4",
+      "Title": "Warning 3",
+      "Description": "<span style=\"color: red;\">Warning!!!</span>",
+      "Duration": 20,
+      "Start": 1640995200,
+      "Finish": 1720742400,
+      "Priority": 0,
+      "Position": "TopMiddle"
+    },
+    {
+      "Id": "5",
+      "Title": "Warning 4",
+      "Description": "<span style=\"color: red;\">Warning!!!</span>",
+      "Duration": 20,
+      "Start": 1640995200,
+      "Finish": 1720742400,
+      "Priority": 0,
+      "Position": "TopRight"
+    },
+    {
+      "Id": "6",
+      "Title": "Warning 5",
+      "Description": "<span style=\"color: red;\">Warning!!!</span>",
+      "Duration": 20,
+      "Start": 1640995200,
+      "Finish": 1720742400,
+      "Priority": 0,
+      "Position": "BottomLeft"
+    },
+    {
+      "Id": "7",
+      "Title": "Warning 6",
+      "Description": "<span style=\"color: red;\">Warning!!!</span>",
+      "Duration": 20,
+      "Start": 1640995200,
+      "Finish": 1720742400,
+      "Priority": 0,
+      "Position": "BottomMiddle"
+    },
+    {
+      "Id": "8",
+      "Title": "Warning 7",
+      "Description": "<span style=\"color: red;\">Warning!!!</span>",
+      "Duration": 20,
+      "Start": 1640995200,
+      "Finish": 1720742400,
+      "Priority": 0,
+      "Position": "BottomRight"
+    }
+  ]
+}
