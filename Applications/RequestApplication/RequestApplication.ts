@@ -9,7 +9,7 @@ export default class RequestApplication {
 			}).then(response => {
 				if (response.ok) {
 					response.json().then(data => {
-						resolve(data);
+						resolve(data.value);
 					});
 				} else {
 					reject(response);

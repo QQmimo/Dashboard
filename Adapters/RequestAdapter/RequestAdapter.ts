@@ -9,7 +9,7 @@ export default class RequestAdapter {
 		if (process.env.NODE_ENV === 'development') {
 			return new Promise((resolve, reject) => {
 				let json = require(`../../FAKE/${entity}.json`);
-				resolve(json);
+				resolve(json.value);
 			});
 		}
 		return this._RequestApplication.get<K[]>(`/_api/web/${entity}`);

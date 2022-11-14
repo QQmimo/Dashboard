@@ -1,6 +1,20 @@
-﻿module.exports = {
-	entry: './main.ts',
+﻿const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+module.exports = {
+	entry: './Frameworks/UI/App.tsx',
 	output: {
-		filename: './OUT/main.js'
+		filename: './main.js'
+	},
+	plugins: [new HtmlWebpackPlugin()],
+	module: {
+		rules: [
+			{
+				test: /\.(ts|tsx)?$/,
+				loader: 'ts-loader'
+			}
+		]
+	},
+	resolve: {
+		extensions: ['.ts', '.tsx', '.js', '.jsx', '.json']
 	}
 };
